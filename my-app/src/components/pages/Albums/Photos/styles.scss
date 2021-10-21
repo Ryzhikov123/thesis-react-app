@@ -1,0 +1,8 @@
+.site-layout-background {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .ant-image {
+    margin-bottom: 15px;
+  }
+}

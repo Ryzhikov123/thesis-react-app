@@ -28,7 +28,7 @@ export const AlbumsPage = () => {
   return (
     <PageWrapper>
       {albums ? (
-        <Table dataSource={albums}>
+        <Table dataSource={albums} rowKey="id">
           <Column
             title="User Name"
             dataIndex="userId"

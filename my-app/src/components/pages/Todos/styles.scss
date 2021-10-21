@@ -1,0 +1,30 @@
+.todos-page {
+  display: flex;
+  flex-direction: column;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  &__user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ant-checkbox-wrapper {
+    align-items: flex-start;
+  }
+}
+.ant-select-single .ant-select-selector {
+  align-items: flex-start;
+}

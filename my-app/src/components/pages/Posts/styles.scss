@@ -1,0 +1,20 @@
+.site-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.ant-card-bordered {
+  border: none !important;
+}
+.ant-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 70% !important;
+}
+.ant-modal-content {
+  box-shadow: none !important;
+}
